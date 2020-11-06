@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#headerSection {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+  height: 120px;
+  background-color: skyblue;
+}
+
+header h1 {
+  color: #00bfff;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 500px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 300%;
+  padding: 33px;
+}
+
+#usersInput {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  top: 150px;
+  background-color: skyblue;
+  margin-left: auto;
+  margin-right: auto;
+  height: 360px;
+}
+
+#userName {
+  margin-top: 2%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#userName textarea {
+  margin-top: 2%;
+  width: 200px;
+  height: 50px;
+  resize: none;
+}
+
+#userComment {
+  margin-top: 2%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#userComment textarea {
+  margin-top: 2%;
+  width: 350px;
+  height: 110px;
+  resize: none;
+}
+
+#tweetBntDiv button {
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 80px;
+  height: 50px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#usersOutput {
+  position: absolute;
+  top: 535px;
+  width: 550px;
+  background-color: skyblue;
+  height: 570px;
+}
+
+#refreshArea {
+  position: relative;
+  display: flex;
+  height: 60px;
+  background-color: rgb(16, 72, 156);
+}
+
+#refreshBtn {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 15px;
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.userOutputContents {
+  position: relative;
+}
+
+.outputName {
+  position: relative;
+  font-weight: bold;
+  left: 4%;
+  background-color: transparent;
+  border: none;
+  font-size: small;
+  cursor: pointer;
+}
+
+.outputDate {
+  position: absolute;
+  font-weight: bold;
+  font-size: xx-small;
+  right: 5%;
+}
+
+.outputComments {
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+  left: 5%;
+  max-width: 500px;
+}
+
+.outputDividor {
+  position: relative;
+  margin: 5px;
+  width: 540px;
+  border-top: 1px solid green;
+}
+
+#button {
+  position: absolute;
+  margin: auto;
+}
